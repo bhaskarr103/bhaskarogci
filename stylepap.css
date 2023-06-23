@@ -28,4 +28,13 @@
   .cell:hover {
     background-color: peru;
   }
-  
+
+@media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+      
+      .grid {
+        flex-basis: 100%;
+      }
+    }
