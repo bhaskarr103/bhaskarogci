@@ -24,6 +24,12 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
+
+  div .cell {
+    text-align: center;
+    padding-top: 5%;
+    font-size: 40px;
+  }
   
   .cell:hover {
     background-color: peru;
