@@ -10,7 +10,7 @@
     align-content: center;
     grid-template-columns: auto auto auto;
     gap: 10px;
-    background-image: url(images/wallpaperflare.com_wallpaper.jpg);
+    background-image: url(wp9637255-no-copyright-wallpapers.jpg);
     padding: 10px;
 }
   
@@ -48,5 +48,5 @@
   }
   
   .cell:hover {
-    background-color: rgb(209, 167, 125);
+    background-color: rgb(237, 123, 142);
   }
