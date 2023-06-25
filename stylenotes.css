@@ -32,3 +32,21 @@
 .grid-container a {
     color: black;
 }
+
+.cell {
+    background-color: gray;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+  }
+
+  div .cell {
+    text-align: center;
+    padding-top: 5%;
+    font-size: 25px;
+  }
+  
+  .cell:hover {
+    background-color: rgb(209, 167, 125);
+  }
