@@ -69,6 +69,46 @@ nav .navigation ul li a:hover {
 }
 
 
+    /* Media Queries for navigation. */
+
+    @media only screen and (max-width: 600px) {
+        nav {
+            flex-direction: column;
+            padding: 1vw;
+        }
+
+        nav img {
+            width: 100px;
+        }
+
+        nav .navigation ul li {
+            margin: 10px 0;
+        }
+
+        nav .navigation ul li a {
+            font-size: 20px;
+        }
+    }
+
+    @media only screen and (min-width: 601px) and (max-width: 1024px) {
+        nav {
+            padding: 1vw 4vw;
+        }
+
+        nav img {
+            width: 120px;
+        }
+
+        nav .navigation ul li {
+            margin-left: 20px;
+        }
+
+        nav .navigation ul li a {
+            font-size: 25px;
+        }
+    }
+
+
 /*       home     */
 
 #home{
