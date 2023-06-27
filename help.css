@@ -25,6 +25,14 @@
   #colorfulBox:hover {
     border-color: #f00;
   }
+
+
+  @media (max-width: 480px) {
+    /* Adjustments for mobile devices */
+    .container {
+      height: auto;
+      padding: 20px;
+    }
   
   button {
     padding: 10px 20px;
