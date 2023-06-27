@@ -11,8 +11,9 @@
     align-items: center;
     height: 100vh;
   }
+
   
-  #colorfulBox {
+  #colorfulBox h1 {
     width: 300px;
     height: 300px;
     border: 10px solid #0ac2a3;
@@ -20,6 +21,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration:darkred;
   }
   
   #colorfulBox:hover {
@@ -33,9 +35,4 @@
       height: auto;
       padding: 20px;
     }
-  
-  button {
-    padding: 10px 20px;
-    font-size: 18px;
-  }
   
