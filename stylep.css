@@ -205,11 +205,12 @@ nav #links a:nth-child(2){
 
 #right{
     width: 50%;
-    height: 50%;
+    height: 100%;
 }
 
 #right img{
-    width: 100%;
+    margin-left: 40%;
+    width: 50vh;
     height: 80vh;
 }
 
