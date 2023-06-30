@@ -59,7 +59,7 @@ nav .navigation ul li {
 nav .navigation ul li a {
     text-decoration: none;
     color: rgb(84, 128, 178);
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 500;
     transition: 0.3s ease;
 }
@@ -82,7 +82,7 @@ nav .navigation ul li a:hover {
         }
 
         nav .navigation ul li {
-            margin: 10px 0;
+            margin: 10px 6px;
         }
 
         nav .navigation ul li a {
