@@ -176,10 +176,10 @@ nav .navigation ul li a:hover {
    text-transform: uppercase;
   background-image: linear-gradient(
     -225deg,
-    #38dc67 0%,
+    #f8f8f8 0%,
     #d8711d 29%,
     #ff1361 67%,
-    #2586c3 100%
+    #3c28ef 100%
   );
   background-size: auto auto;
   background-clip: border-box;
@@ -193,6 +193,12 @@ nav .navigation ul li a:hover {
   display: inline-block;
       font-size: 19px;
 }
+
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
 
 /*       CATEGORIES         */
 
