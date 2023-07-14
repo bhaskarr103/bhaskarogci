@@ -13,7 +13,7 @@
 </head>
 <body>
     <section class="container   testimonials__Containers swiper mySwiper">
-        <h2 style="text-align: center; font-size: 75px; color: rgb(248, 153, 36);"> OuR cOnTrIbUtErS ! </h2>
+        <h2 style="text-align: center; font-size: 75px; color: rgb(248, 153, 36);"> OUR TOP CONTRIBUTERS! </h2>
         <div class="swiper-wrapper">
           <article class="testimonials swiper-slide">
             <div class="avatar">
@@ -26,7 +26,7 @@
       
              <div class="testimonial__body">
               <p>
-                currently studying in 2nd year<br>entusiast web devloper, python devloper.
+                currently studying in 2nd year<br>entusiast web devloper, python devloper.<br>Link :
                </p> 
              </div>
           </article>
@@ -36,13 +36,13 @@
          <img src="/images/pngegg.png" alt="">
         </div>
          <div class="testimonial__info">
-         <h5>Dayan ali</h5>
+         <h5>Unavailable</h5>
          <small>student</small> 
         </div>
       
         <div class="testimonial__body">
          <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi consequuntur quae fugit quos ea laudantium, reprehenderit dicta tempore dolorum nostrum?
+          currently studying in 2nd year<br>entusiast web devloper, python devloper.<br>Link :
          </p>
         </div>
       </article>
@@ -58,7 +58,7 @@
       
         <div class="testimonial__body">
          <p>
-          currently studying in 2n year<br>entusiast web devloper, python devloper.
+          currently studying in 2nd year<br>entusiast web devloper, python devloper.<br>Link :
          </p>
         </div>
       </article>
@@ -66,20 +66,30 @@
         <div class="swiper-pagination"></div>
     </section>
     
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
     <!-- Initialize Swiper -->
+
+
     <script>
       var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 4,
-        centeredSlides: true,
-        spaceBetween: 30,
+        effect: "coverflow",
         grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
         pagination: {
           el: ".swiper-pagination",
-          clickable: true,
         },
       });
     </script>
+
 </body>
 </html>
