@@ -16,7 +16,7 @@ The __init__ AI project is built using the following technologies:
 # Details :
 The project consists of the following main components:
 
-[] root-page: The landing page of the website, providing an overview and navigation options.
+[] root-page: The landing page of the website, providing an overview and navigation options.<br>
 [] nav-section: The page that offers information about the project and its mission.
 [] gallery-section: Interactive divisions for students.
 [] notes-section: contain my hand-written notes.
