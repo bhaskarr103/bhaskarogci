@@ -17,12 +17,12 @@ The __init__ AI project is built using the following technologies:
 The project consists of the following main components:
 
 [] root-page: The landing page of the website, providing an overview and navigation options.<br>
-[] nav-section: The page that offers information about the project and its mission.
-[] gallery-section: Interactive divisions for students.
-[] notes-section: contain my hand-written notes.
-[] papers-section: contain previous year papers.
-[] contribution-section: contain profile of contributers for for website content.
-[] personal-portfolio.
+[] nav-section: The page that offers information about the project and its mission.<br>
+[] gallery-section: Interactive divisions for students.<br>
+[] notes-section: contain my hand-written notes.<br>
+[] papers-section: contain previous year papers.<br>
+[] contribution-section: contain profile of contributers for for website content.<br>
+[] personal-portfolio.<br>
 
 
 ![Screenshot (126)](https://github.com/bhaskarr103/bhaskarogci/assets/123258478/962d0cd5-c9c1-49b8-98f2-98622225ed58)
