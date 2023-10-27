@@ -1,8 +1,9 @@
-__init__ AI :
+# __init__ AI :
 Welcome to the __init__ AI project! This project aims to provide a centralized platform for accessing valuable resources.
 
 
-# Project Description : __init__ AI is a web-based platform that serves as a comprehensive resource hub for U.I.E.T.K Students interested in artificial intelligence, machine learning, and computer science. It offers a curated collection of resources, for semester preparation and insightful articles to help users stay updated.
+# Project Description :
+__init__ AI is a web-based platform that serves as a comprehensive resource hub for U.I.E.T.K Students interested in artificial intelligence, machine learning, and computer science. It offers a curated collection of resources, for semester preparation and insightful articles to help users stay updated.
 
 
 # Tools Used :
