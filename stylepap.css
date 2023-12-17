@@ -47,6 +47,10 @@
     padding-top: 5%;
     font-size: 25px;
   }
+
+.cell a{
+    text-decoration: none;
+}
   
   .cell:hover {
     background-color: rgb(209, 167, 125);
