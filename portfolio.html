@@ -1,115 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>RESPONSIVE PORTFOLIO WEBSITE </title>
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-        <link rel="stylesheet" type="text/css" href="stylep.css">
-    </head>
-    <body>
-        <!--body-->
-        <header class="header">
-            <a href="#" class="logo">Portfolio</a>
-            <i class='bx bx-menu' id="menu-icon"></i>
-            <nav class="navbar">
-                <a href="#home" class="active">HOME</a>
-                <a href="#about">ABOUT</a>
-                <a href="#services">PROJECTS</a>
-            </nav>
-        </header>
-        <section class="home" id="home">
-            <div class="home-content">
-                <h3>Hello,It's Me</h3>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>RESPONSIVE PORTFOLIO WEBSITE </title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="demo.css">
+</head>
+
+<body>
+    <!--body-->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#services">PROJECTS</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <video autoplay loop muted plays-inline class="background-clip">
+                <source src="dummy.mp4" type="video/mp4">
+            </video>
+            <div class="content-overlay">
+                <h3>Hello, It's Me</h3>
                 <h1>Bhaskar</h1>
-                <h3>And I'm a <span class="multiple-text"></span></h3>
+                <h3>And I'm a <span class="multiple-text">Developer</span></h3>
                 <div class="social-media">
                     <a href="https://github.com/bhaskarr103"><i class='bx bxl-github'></i></a>
                     <a href="#"><i class='bx bxs-envelope'></i></a>
-                    <a href="#"><i class='bx bxl-instagram' ></i></a>
-                    <a href="www.linkedin.com/in/bhaskar-r-bab214249"><i class='bx bxl-linkedin-square' ></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="www.linkedin.com/in/bhaskar-r-bab214249"><i class='bx bxl-linkedin-square'></i></a>
                 </div>
-                <a href="https://drive.google.com/file/d/1m9XPAKIxYhn214bS4B0WcVOLmu-JQ2yh/view?usp=drivesdk" class="btn">Download CV</a>
+                <a href="" class="btn">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="Home.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About<span>Me</span></h2>
+            <h3>DATA SCIENCE LEARNER</h3>
+            <p>I'm Bhaskar Rajaura & I'm from Kanpur. I'm an III year engineering student from UIET Kanpur specialized
+                in Computer Science. I've maintained a CGPA of 8.50 in my academics.<br>
+                Along with my degree I've completed Machine Learning, SQL and Flask Courses online
+                .Moving forward in my career I hope to expand my experience across different industries.<br>
+                I'm a good learner and team player
+                That's all about my self. </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <h2 class="heading">Our<span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>FRONT END DEVELOPMENT</h3>
+                <p>Motivated designer and developer
+                    with experience creating custom websites through HTML and CSS.
+                    Strong collaboration skills and proven history of application development.</p>
+                <a href="#" class="btn">Read More</a>
             </div>
 
-        </section>
-        <section class="about" id="about">
-            <div class="about-img">
-                <img src="Home.png" alt="">
+            <div class="services-box">
+                <i class='bx bx-crop'></i>
+                <h3>DATA ANALYST</h3>
+                <p>I specialize in translating complex data into clear, concise reports and visualizations; that empower
+                    teams to thrive in a data-driven world</p>
+                <a href="#" class="btn">Read More</a>
             </div>
-            <div class="about-content">
-                <h2 class="heading">About<span>Me</span></h2>
-                <h3>DATA SCIENCE LEARNER</h3>
-                <p>I'm Bhaskar Rajaura & I'm from Kanpur. I'm an  III year engineering student from UIET Kanpur specialized in Computer Science. I've maintained a CGPA of 8.50 in my academics.<br>
-                    Along with my degree I've completed Machine Learning, SQL and Flask Courses online
-                    .Moving forward in my career I hope to expand my experience across different industries.<br>
-                    I'm a good learner and team player
-                    That's all about my self. </p>
-                 <a href="#"class="btn">Read More</a>   
-            </div>
-        </section>
-        <section class="services"id="services">
-            <h2 class="heading">Our<span>Services</span></h2>
 
-            <div class="services-container">
-                <div class="services-box">
-                    <i class='bx bx-code-alt'></i>
-                    <h3>FRONT END DEVELOPMENT</h3>
-                    <p>Motivated designer and developer
-                         with experience creating custom websites through HTML and CSS. 
-                         Strong collaboration skills and proven history of application development.</p>
-                    <a href="#"class="btn">Read More</a>
-                </div>
-        
-                <div class="services-box">
-                    <i class='bx bx-crop' ></i>
-                    <h3>DATA ANALYST</h3>
-                    <p>I specialize in translating complex data into clear, concise reports and visualizations; that empower teams to thrive in a data-driven world</p>
-                    <a href="#"class="btn">Read More</a>
-                </div>
-            
-                <div class="services-box">
-                    <i class='bx bxl-instagram-alt' ></i>
-                    <h3>MACHINE LEARNING</h3>
-                    <p> passion to harness the power of data and algorithms to drive real-world solutions.
-                        </p>
-                    <a href="mlproject.html"class="btn">Read More</a>
-                </div>
+            <div class="services-box">
+                <i class='bx bxl-instagram-alt'></i>
+                <h3>MACHINE LEARNING</h3>
+                <p> passion to harness the power of data and algorithms to drive real-world solutions.
+                </p>
+                <a href="mlproject.html" class="btn">Read More</a>
             </div>
-        </section>
-        
-        <footer class="footer">
-            <div class="footer-text">
-                <p>Copyright &copy; 2023 by Bhaskar | All Rights Reserved.</p>
-            </div>
-            <div class="footer-iconTop">
-                <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
-            </div>
-        </footer>
+        </div>
+    </section>
 
-        <script src="https://unpkg.com/scrollreveal"></script>
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Bhaskar | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
 
-        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-        <script src="demor.js"></script>
-        <script>
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbzFPVGxI-75Ilkm2z_EMuI9ubPlp8-7dQmMzzdPiIunLPPzj3bcY1ohMdT_DfZ3zPwhTA/exec'
-            const form = document.forms['submit-to-google-sheet']
-            const msg=document.getElementById("msg")
-          
-            form.addEventListener('submit', e => {
-              e.preventDefault()
-              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="demor.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzFPVGxI-75Ilkm2z_EMuI9ubPlp8-7dQmMzzdPiIunLPPzj3bcY1ohMdT_DfZ3zPwhTA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
                 .then(response => {
-                    msg.innerHTML="Message sent successfully"
-                    setTimeout(function(){
-                        msg.innerHTML=""
-                    },5000)
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
                     form.reset()
                 })
                 .catch(error => console.error('Error!', error.message))
-            })
-          </script>
-        
-    </body>
+        })
+    </script>
+
+</body>
+
 </html>
