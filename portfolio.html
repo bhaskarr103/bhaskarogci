@@ -30,7 +30,7 @@
             <div class="content-overlay">
                 <h3>Hello, It's Me</h3>
                 <h1>Bhaskar</h1>
-                <h3>And I'm a <span class="multiple-text">Developer</span></h3>
+                <h3>And I'm a <span class="multiple-text">Datascience Learner</span></h3>
                 <div class="social-media">
                     <a href="https://github.com/bhaskarr103"><i class='bx bxl-github'></i></a>
                     <a href="#"><i class='bx bxs-envelope'></i></a>
@@ -58,36 +58,38 @@
             <a href="#" class="btn">Read More</a>
         </div>
     </section>
+
     <section class="services" id="services">
-        <h2 class="heading">Our<span>Services</span></h2>
-
+        <h2 class="heading">Latest <span>Projects</span></h2>
         <div class="services-container">
-            <div class="services-box">
-                <i class='bx bx-code-alt'></i>
-                <h3>FRONT END DEVELOPMENT</h3>
-                <p>Motivated designer and developer
-                    with experience creating custom websites through HTML and CSS.
-                    Strong collaboration skills and proven history of application development.</p>
-                <a href="#" class="btn">Read More</a>
-            </div>
-
-            <div class="services-box">
-                <i class='bx bx-crop'></i>
-                <h3>DATA ANALYST</h3>
-                <p>I specialize in translating complex data into clear, concise reports and visualizations; that empower
-                    teams to thrive in a data-driven world</p>
-                <a href="#" class="btn">Read More</a>
-            </div>
-
-            <div class="services-box">
-                <i class='bx bxl-instagram-alt'></i>
-                <h3>MACHINE LEARNING</h3>
-                <p> passion to harness the power of data and algorithms to drive real-world solutions.
-                </p>
-                <a href="mlproject.html" class="btn">Read More</a>
+            <!-- Carousel container -->
+            <div id="servicesCarousel" class="carousel">
+                <!-- Carousel items -->
+                <div class="carousel-item active">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>FRONT END DEVELOPMENT</h3>
+                    <p>Motivated designer and developer with experience creating custom websites through HTML and CSS. Strong collaboration skills and proven history of application development.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                <div class="carousel-item">
+                    <i class='bx bx-crop'></i>
+                    <h3>DATA ANALYST</h3>
+                    <p>I specialize in translating complex data into clear, concise reports and visualizations; that empower teams to thrive in a data-driven world</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                <div class="carousel-item">
+                    <i class='bx bxl-instagram-alt'></i>
+                    <h3>MACHINE LEARNING</h3>
+                    <p>Passion to harness the power of data and algorithms to drive real-world solutions.</p>
+                    <a href="mlproject.html" class="btn">Read More</a>
+                </div>
+                <!-- Carousel controls -->
+                <a class="carousel-control prev" onclick="moveSlide(-1)">❮</a>
+                <a class="carousel-control next" onclick="moveSlide(1)">❯</a>
             </div>
         </div>
     </section>
+    
 
     <footer class="footer">
         <div class="footer-text">
@@ -102,22 +104,23 @@
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbzFPVGxI-75Ilkm2z_EMuI9ubPlp8-7dQmMzzdPiIunLPPzj3bcY1ohMdT_DfZ3zPwhTA/exec'
-        const form = document.forms['submit-to-google-sheet']
-        const msg = document.getElementById("msg")
+        let slideIndex = 0;
 
-        form.addEventListener('submit', e => {
-            e.preventDefault()
-            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-                .then(response => {
-                    msg.innerHTML = "Message sent successfully"
-                    setTimeout(function () {
-                        msg.innerHTML = ""
-                    }, 5000)
-                    form.reset()
-                })
-                .catch(error => console.error('Error!', error.message))
-        })
+        function moveSlide(step) {
+            const slides = document.getElementsByClassName('carousel-item');
+            if (step > 0) {
+                slideIndex = (slideIndex + 1) % slides.length;
+            } else {
+                slideIndex = (slideIndex - 1 + slides.length) % slides.length;
+            }
+            Array.from(slides).forEach((slide, index) => {
+                slide.style.transform = `translateX(${-slideIndex * 100}%)`;
+            });
+        }
+
+        // Optional: Auto-slide functionality
+        setInterval(() => moveSlide(1), 3000); // Change slides every 3 seconds
+
     </script>
 
 </body>
